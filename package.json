@@ -1,0 +1,25 @@
+{
+  "name": "fis-parser-babel-6.x",
+  "version": "1.0.0",
+  "description": "a babel 6.x parser for fis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fis",
+    "parser",
+    "babel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fex-team/fis-parser-babel-6.x"
+  },
+  "author": "fis@baidu.com",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "babel-core": "6.2.1",
+    "babel-preset-es2015": "6.1.18",
+    "babel-preset-stage-3": "6.1.18"
+  }
+}
