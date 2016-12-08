@@ -28,11 +28,6 @@ module.exports = function (content, file, conf) {
         });
     }
 
-    // 默认不加载.babelrc，避免错误的加载了全局配置而非编译工具中指定的配置
-    if (conf.breakConfig === undefined) {
-        conf.breakConfig = true;
-    }
-
     // 出于安全考虑，不使用原始路径
     conf.filename = file.subpath;
 
