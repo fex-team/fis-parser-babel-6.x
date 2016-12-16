@@ -21,8 +21,8 @@ FIS3用法
 fis.set('project.fileType.text', 'es');
 fis.match('server/**.es', {
     parser: fis.plugin('babel-6.x', {
-        // preset: [
-        // 注意一旦这里在这里添加了preset配置，则会覆盖默认加载的preset-2015等插件，因此需要自行添加所有需要使用的preset
+        // presets: [
+        // 注意一旦这里在这里添加了 presets 配置，则会覆盖默认加载的 preset-2015 等插件，因此需要自行添加所有需要使用的 presets
         // ]
     }),
     rExt: 'js'
