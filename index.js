@@ -29,7 +29,7 @@ module.exports = function (content, file, conf) {
     }
 
     // 出于安全考虑，不使用原始路径
-    conf.filename = file.subpath;
+    // conf.filename = file.subpath;
 
     var result = babel.transform(content, conf);
     return result.code;
